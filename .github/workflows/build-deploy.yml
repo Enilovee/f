@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs: 
   job1:
-    runs-on: windows-latest
+    runs-on: ubuntu-18.04
     environment:
       name: testing 
     env: 
